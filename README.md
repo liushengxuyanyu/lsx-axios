@@ -1,13 +1,12 @@
-## @lsx/axios
-
-​		平台各系统使用的网络请求库杂乱不同，使用同一种的请求库使用方式、规范等又不同，故而为了平台标准化，减轻将来的开发成本和维护成本，进行针对于平台的网络请求库进行统一工作，选择了比较适用于`Vue`的主流网络请求库 - `axios` 进行二次封装。
+## lsx-axios
+  基于Axios的二次封装
 
 ## 仓库地址
 
 [仓库地址](https://github.com/liushengxuyanyu/lsx-axios.git)
 
 ## npm地址
-[npm地址]()
+[npm地址](https://www.npmjs.com/package/lsx-axios)
 
 ## 支持功能
 
@@ -36,18 +35,18 @@
 
 ## 安装
 ```bash 
-npm install @lsx/axios --save
+npm install lsx-axios --save
 ```
 
 
 ## 使用示例
 
-main.js 示例：在主入口引入`@lsx/axios`
+main.js 示例：在主入口引入`lsx-/axios`
 
 ```javascript
 /** main.js */
 
-import _axios from '@lsx/axios'
+import _axios from 'lsx-axios'
 
 // 初始化配置
 _axios.initDefaultConfig({

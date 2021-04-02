@@ -1,5 +1,5 @@
 {
-  "name": "@lsx/axios",
+  "name": "lsx-axios",
   "version": "1.0.1",
   "description": "Secondary packaging Library of Axios",
   "main": "lib/_axios.min.js",
